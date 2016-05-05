@@ -1,0 +1,20 @@
+{
+  "name": "google-like-spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js --harmony"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "es6-shim": "^0.35.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.13.0",
+    "needle": "^0.11.0",
+    "playmusic": "^2.1.1",
+    "request": "^2.67.0"
+  }
+}
