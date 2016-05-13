@@ -14,7 +14,7 @@
     "mkdirp": "^0.5.1",
     "moment": "^2.13.0",
     "needle": "^0.11.0",
-    "playmusic": "^2.1.1",
+    "playmusic": "git@github.com:headdetect/playmusic.git#master",
     "request": "^2.67.0"
   }
 }
