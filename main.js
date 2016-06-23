@@ -8,7 +8,7 @@ const fs = require('fs');
 const config = require("./config.json");
 const mkdirp = require('mkdirp');
 
-var id = setInterval(() => {
+() => {
   gmusic.init({email: config.email, password: config.password}, function(err) {
     if(err) {
       console.error(err);
@@ -52,4 +52,4 @@ var id = setInterval(() => {
     });
 
   });
-}, 60 * 1000);
+}();
